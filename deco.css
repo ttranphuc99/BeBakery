@@ -43,20 +43,35 @@ li {
 }
 
 @keyframes change_background {
+/*    0s*/
     0% {
-        background: url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top, url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg1.jpg") no-repeat;
+        background: 
+            url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top,
+            url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg1.jpg") no-repeat;
     }
-    10% {
-        background: url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top, url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg2.jpg") no-repeat;
+/*    5s*/
+    41.7% {
+        background: 
+            url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top,
+            url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg1.jpg") no-repeat;
     }
+/*    6s*/
     50% {
-        background: url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top, url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg2.jpg") no-repeat;
+        background: 
+            url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top,
+            url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg2.jpg") no-repeat;
     }
-    60% {
-        background: url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top, url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg1.jpg") no-repeat;
+/*    11s*/
+    91.7% {
+        background: 
+            url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top,
+            url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg2.jpg") no-repeat;
     }
+/*    12s*/
     100% {
-        background: url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top, url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg1.jpg") no-repeat;
+        background: 
+            url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top,
+            url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg1.jpg") no-repeat;
     }
 }
 
@@ -65,11 +80,183 @@ li {
     height: 880px;
     z-index: -1;
     margin-left: -8px;
-    background: url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top, url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg1.jpg") no-repeat;
+    background: 
+        url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top,
+        url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg1.jpg") no-repeat;
     animation-name: change_background;
-    animation-duration: 10s;
-    animation-delay: 4s;
+    animation-duration: 12s;
     animation-iteration-count: infinite;
     animation-direction: normal;
 }
 
+@keyframes brand {
+/*    0s*/
+    0% {
+        top: 400px;
+        visibility: hidden;
+    }
+/*    0.25s*/
+    2.08% {
+        top: 400px; 
+        visibility: hidden;
+    }
+/*    0.75s*/
+    6.25% {
+        top: 350px;
+        visibility: visible;
+    }
+/*    4.25s*/
+    35.42% {
+        top: 350px;
+        visibility: visible;
+    }
+/*    4.75s*/
+    39.58% {
+        top: 400px;
+        visibility: hidden;
+    }
+/*    6.25s*/
+    52.08% {
+        top: 400px;
+        visibility: hidden;
+    }
+/*    6.75s*/
+    56.25% {
+        top: 350px;
+        visibility: visible;
+    }
+/*    10.25s*/
+    85.42% {
+        top: 350px;
+        visibility: visible;
+    }
+/*    10.75s*/
+    89.58% {
+        top: 400px;
+        visibility: hidden;
+    }  
+}
+
+.brand {
+    position: absolute;
+    top: 350px;
+    left: 44%;
+    visibility: hidden;
+    animation-name: brand;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    z-index: 2;
+}
+
+@keyframes slogan {
+/*    0s*/
+    0% {
+        top: 490px;
+        visibility: hidden;
+    }
+/*    0.70s*/
+    5.84% {
+        top: 490px; 
+        visibility: hidden;
+    }
+/*    1.20s*/
+    10% {
+        top: 440px;
+        visibility: visible;
+    }
+/*    4.25s*/
+    35.42% {
+        top: 440px;
+        visibility: visible;
+    }
+/*    4.75s*/
+    39.58% {
+        top: 490px;
+        visibility: hidden;
+    }
+/*    6.70s*/
+    55.84% {
+        top: 490px;
+        visibility: hidden;
+    }
+/*    7.20s*/
+    60% {
+        top: 440px;
+        visibility: visible;
+    }
+/*    10.25s*/
+    85.42% {
+        top: 440px;
+        visibility: visible;
+    }
+/*    10.75s*/
+    89.58% {
+        top: 490px;
+        visibility: hidden;
+    }  
+}
+
+.slogan {
+    position: absolute;
+    top: 490px;
+    left: 31%;
+    visibility: hidden;
+    animation-name: slogan;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    z-index: 3;
+}
+
+@keyframes shadow {
+/*    0s*/
+    0% {
+        visibility: hidden;
+    }
+/*    1.15s*/
+    9.58% {
+        visibility: hidden;
+    }
+/*    3.2s*/
+    26.67% {
+        visibility: visible;
+    }
+/*    4s*/
+    33.33% {
+        visibility: visible;
+    }
+/*    4.75s*/
+    39.58% {
+        visibility: hidden;
+    }
+/*    7.15s*/
+    59.58% {
+        visibility: hidden;
+    }
+/*    9.2s*/
+    76.67% {
+        visibility: visible;
+    }
+/*    10s*/
+    83.33% {
+        visibility: visible;
+    }
+/*    10.75s*/
+    89.58% {
+        visibility: hidden;
+    }
+}
+
+.shadow {
+    position: relative;
+    left: 10.5%;
+    bottom: 50px;
+    z-index: 1;
+    visibility: hidden;
+    animation-name: shadow;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+}
