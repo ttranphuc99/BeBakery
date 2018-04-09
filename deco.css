@@ -1,0 +1,52 @@
+.navigation {
+    background-color: #E7E4DB;
+    width: 102%;
+    height: 100px;
+    margin: -1.3%;
+}
+.peak {
+    background-color: white;
+    background-image: url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    width: 102%;
+    height: 30px;
+    margin: -1.3%;
+}
+
+.logo{
+    display: block;
+    max-height: 52px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: #372921;
+}
+
+a:hover {
+    color: #C25555;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: block;
+    float: right;
+    padding: 25px;
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+.buy {
+    padding-right: 150px;
+}
+
+.buy, .home {
+    color: #C25555;
+}
