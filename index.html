@@ -22,7 +22,7 @@
         </ul>
     </div>
     
-    <div class="header_img">
+    <div class="header_img" onwheel="myFunction()">
         <img class="brand" src="http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_ribbon3.png" alt="brand">
         
         <img class="slogan" src="http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_ribbon1.png" alt="slogan">
@@ -30,12 +30,25 @@
         <img class="shadow" src="http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_glow.png" alt="" width="1199" height="1089">
     </div>
     
-    <div class ="info1">
-        <h1 class="info1_heading">Nullam wisi<br>ultricies gravida</h1>
+    <div class="info1">
+        <h1 class="info1_heading" id="animation1">
+            Nullam wisi<br>ultricies gravida
+        </h1>
         
         <hr class="break1">
         
+        <p class="para_info1_01" id="animation2">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit iam pede cursus vitae.</p>
+        
+        <p class="para_info1_02" id="animation">Call us +23 344 554 766</p>
+        
+        <a href="#" class="contact">More about us</a>
     </div>
     
+    <script>
+        function myFunction() {
+            document.getElementById('animation1').style.opacity = "1";
+            document.getElementById('animation2').style.opacity = "1";
+        }
+    </script>
 </body>
 </html>
