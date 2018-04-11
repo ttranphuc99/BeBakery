@@ -1,0 +1,68 @@
+.info1 {
+    background-image: url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_about_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 1821px auto;
+    background-position: center;
+    width: 1521px;
+    height: 780px;
+    margin-top: -66px;
+    margin-left: -8px;
+}
+
+
+h1.info1_heading {
+    font-family: 'Averia Serif Libre', cursive;
+    color: #382A22;
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 300;
+    padding-top: 150px;
+    padding-left: 10%;
+    transition: 2s;
+    opacity: 0;
+} 
+
+.break1 {
+    width: 210px;
+    margin-left: 10%;
+    margin-top: 60px;
+    border-style: solid;
+    border-color: #ADADAA;
+    height: 1px;
+    background-color: #ADADAA;
+}
+
+.para_info1_01, .para_info1_02 {
+    font-size: 20px;
+    line-height: 22px;
+    width: 35%;
+    margin-left: 10%;
+    font-weight: 300;
+    color: #716C68;
+    font-family: Georgia;
+    opacity: 0;
+}
+
+.para_info1_01 {
+    margin-top: 40px;
+}
+
+.contact {
+    text-decoration: none;
+    font-family: Georgia;
+    color: white;
+    border: 2px solid #BF4D4E;
+    background-color: #BF4D4E;
+    padding: 10px 25px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 10.2%;
+    margin-top: 20px;
+}
+
+.contact:hover {
+    border: 2px solid #BF2D4E;
+    background-color: #BF2D4E;
+    color: white;
+    transition-duration: 0.5s;
+}
