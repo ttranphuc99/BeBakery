@@ -32,10 +32,9 @@
 }
 
 .header_img {
-    width: 1521px;
-    height: 880px;
-    z-index: -1;
-    margin-left: -8px;
+    width: 102%;
+    height: auto;
+    margin-left: -1.3%;
     background: 
         url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top,
         url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg1.jpg") no-repeat;
