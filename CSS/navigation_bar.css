@@ -12,3 +12,32 @@
     margin-top: 20px;
     margin-left: 10%;
 }
+
+a.navi {
+    text-decoration: none;
+    color: #372921;
+    font-size: 18px;
+    padding: 30px;
+}
+
+a.navi:hover {
+    color: #C25555;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: right;
+    margin-top: 35px;
+    height: 70px;
+}
+
+#buy {
+    padding-right: 150px;
+}
+
+a#buy, a#home {
+    color: #C25555;
+}
