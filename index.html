@@ -38,7 +38,7 @@
         </center>
     </div>
     
-    <div class="info1">
+    <div class="info1" onwheel="info2Animation()">
         <h1 class="info1_heading" id="animation1">
             Nullam wisi<br>ultricies gravida
         </h1>
@@ -61,28 +61,28 @@
 <!--           Product 1-->
             <div class="product">
                 <a href="#" class="product">
-                    <img src="http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_product_1.png" alt="Product 1" class="product">
+                    <img src="http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_product_1.png" alt="Product 1" class="product" id="product_img1">
                     
-                    <h4 class="product">Bread</h4>
-                    <p class="product">Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna</p>
+                    <h4 class="product" id="product_name1">Bread</h4>
+                    <p class="product" id="product_info1">Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna</p>
                 </a>
             </div>
 <!--            Product 2-->
             <div class="product">
                 <a href="#" class="product">
-                    <img src="http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_product_2.png" alt="Product 1" class="product">
+                    <img src="http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_product_2.png" alt="Product 1" class="product" id="product_img2">
                     
-                    <h4 class="product">Cakes</h4>
-                    <p class="product">Vesti bulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus</p>
+                    <h4 class="product" id="product_name2">Cakes</h4>
+                    <p class="product" id="product_info2">Vesti bulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus</p>
                 </a>
             </div>
 <!--            Product 3-->
             <div class="product">
                 <a href="#" class="product">
-                    <img src="http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_product_3.png" alt="Product 1" class="product">
+                    <img src="http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_product_3.png" alt="Product 1" class="product" id="product_img3">
                     
-                    <h4 class="product">Donuts</h4>
-                    <p class="product">Aliquam erat ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed sapien</p>
+                    <h4 class="product" id="product_name3">Donuts</h4>
+                    <p class="product" id="product_info3">Aliquam erat ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed sapien</p>
                 </a>
             </div>
         </center>
@@ -94,6 +94,18 @@
             document.getElementById('animation2').style.opacity = "1";
             
             document.getElementById('animation3').style.opacity = "1";
+        }
+        
+        function info2Animation() {
+             document.getElementById('product_img1').style.width = "123px";
+            document.getElementById('product_img2').style.width = "123px";
+            document.getElementById('product_img3').style.width = "123px";
+            document.getElementById('product_name1').style.opacity = "1";
+            document.getElementById('product_name2').style.opacity = "1";
+            document.getElementById('product_name3').style.opacity = "1";
+            document.getElementById('product_info1').style.opacity = "1";
+            document.getElementById('product_info2').style.opacity = "1";
+            document.getElementById('product_info3').style.opacity = "1";
         }
     </script>
 </body>
