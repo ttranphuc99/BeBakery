@@ -104,7 +104,7 @@
     z-index: 2;
 }
 
-@keyframes slogan {
+@keyframes slogan1 {
 /*    0s*/
     0% {
         top: 400px;
@@ -130,21 +130,6 @@
         top: 400px;
         opacity: 0;
     }
-/*    6.70s*/
-    55.84% {
-        top: 400px;
-        opacity: 0;
-    }
-/*    7.20s*/
-    60% {
-        top: 353px;
-        opacity: 1;
-    }
-/*    10.25s*/
-    85.42% {
-        top: 353px;
-        opacity: 1;
-    }
 /*    10.75s*/
     89.58% {
         top: 400px;
@@ -152,16 +137,52 @@
     }  
 }
 
+@keyframes slogan2 {
+/*    0s*/
+    0% {
+        top: -930px;
+        opacity: 0;
+    }
+/*    6.70s*/
+    55.84% {
+        top: -930px;
+        opacity: 0;
+    }
+/*    7.20s*/
+    60% {
+        top: -984px;
+        opacity: 1;
+    }
+/*    10.25s*/
+    85.42% {
+        top: -984px;
+        opacity: 1;
+    }
+/*    10.75s*/
+    89.58% {
+        top: -930px;
+        opacity: 0;
+    }  
+}
+
 .slogan {
     position: relative;
     display: block;
-    top: 400px;
     opacity: 0;
-    animation-name: slogan;
     animation-duration: 12s;
     animation-iteration-count: infinite;
     animation-direction: normal;
     z-index: 3;
+}
+
+#slogan1 {
+    top: 400px;
+    animation-name: slogan1;
+}
+
+#slogan2 {
+    top: -930px;
+    animation-name: slogan2;
 }
 
 @keyframes shadow {
