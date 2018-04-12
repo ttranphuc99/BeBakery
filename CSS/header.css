@@ -33,7 +33,7 @@
 
 .header_img {
     width: 100%;
-    height: auto;
+    height: 884px;
     background: 
         url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top,
         url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg1.jpg") no-repeat;
@@ -41,60 +41,61 @@
     animation-duration: 12s;
     animation-iteration-count: infinite;
     animation-direction: normal;
+    margin: 0px;
 }
 
 @keyframes brand {
 /*    0s*/
     0% {
-        top: 400px;
+        top: 150px;
         opacity: 0;
     }
 /*    0.25s*/
     2.08% {
-        top: 400px; 
+        top: 150px; 
         opacity: 0;
     }
 /*    0.75s*/
     6.25% {
-        top: 350px;
+        top: 110px;
         opacity: 1;
     }
 /*    4.25s*/
     35.42% {
-        top: 350px;
+        top: 110px;
         opacity: 1;
     }
 /*    4.75s*/
     39.58% {
-        top: 400px;
+        top: 150px;
         opacity: 0;
     }
 /*    6.25s*/
     52.08% {
-        top: 400px;
+        top: 150px;
         opacity: 0;
     }
 /*    6.75s*/
     56.25% {
-        top: 350px;
+        top: 110px;
         opacity: 1;
     }
 /*    10.25s*/
     85.42% {
-        top: 350px;
+        top: 110px;
         opacity: 1;
     }
 /*    10.75s*/
     89.58% {
-        top: 400px;
+        top: 150px;
         opacity: 0;
     }  
 }
 
 .brand {
-    position: absolute;
-    top: 350px;
-    left: 44%;
+    display: block;
+    position: relative;
+    top: 150px;
     opacity: 0;
     animation-name: brand;
     animation-duration: 12s;
@@ -106,55 +107,55 @@
 @keyframes slogan {
 /*    0s*/
     0% {
-        top: 490px;
+        top: 400px;
         opacity: 0;
     }
 /*    0.70s*/
     5.84% {
-        top: 490px; 
+        top: 400px; 
         opacity: 0;
     }
 /*    1.20s*/
     10% {
-        top: 440px;
+        top: 353px;
         opacity: 1;
     }
 /*    4.25s*/
     35.42% {
-        top: 440px;
+        top: 353px;
         opacity: 1;
     }
 /*    4.75s*/
     39.58% {
-        top: 490px;
+        top: 400px;
         opacity: 0;
     }
 /*    6.70s*/
     55.84% {
-        top: 490px;
+        top: 400px;
         opacity: 0;
     }
 /*    7.20s*/
     60% {
-        top: 440px;
+        top: 353px;
         opacity: 1;
     }
 /*    10.25s*/
     85.42% {
-        top: 440px;
+        top: 353px;
         opacity: 1;
     }
 /*    10.75s*/
     89.58% {
-        top: 490px;
+        top: 400px;
         opacity: 0;
     }  
 }
 
 .slogan {
-    position: absolute;
-    top: 490px;
-    left: 31%;
+    position: relative;
+    display: block;
+    top: 400px;
     opacity: 0;
     animation-name: slogan;
     animation-duration: 12s;
@@ -204,8 +205,7 @@
 
 .shadow {
     position: relative;
-    left: 10.9%;
-    bottom: 51px;
+    bottom: 440px;
     z-index: 1;
     opacity: 0;
     animation-name: shadow;
