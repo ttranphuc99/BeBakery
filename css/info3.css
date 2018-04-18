@@ -1,0 +1,102 @@
+.info3 {
+    width: 100%;
+    height: 700px;
+    background-color: #F2F1EC;
+    margin: 0;
+}
+
+#info3_heading {
+    font-family: 'Averia Serif Libre', cursive;
+    color: #372921;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 35vw;
+    font-size: 60px;
+    font-weight: 100;
+    margin-left: 8vw;
+    float: left;
+}
+
+#info3_content {
+    width: 35vw;
+    float: right;
+    margin-right: 7vw;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Georgia;
+    color: #8F8F8F;
+    padding-left: 6vw;
+    border-left: 3px solid #8F8F8F;
+}
+
+#info3_content>a {
+    text-decoration: none;
+    color: #BF4C4D;
+}
+
+#info3_content>a:hover {
+    text-decoration: underline;
+}
+
+.info3_gallery {
+    margin-top: 5vh;
+    margin-left: 10vw;
+    float: left;
+}
+
+.info3_gallery>a {
+    float: left;
+    margin-right: 1vw;
+}
+
+.info3_img {
+    margin: 0;
+    padding-top:0;
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+    border: 5px solid #F8F8F8;
+}
+
+.info3_img>img {
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    transition: 0.25s;
+    border: 0;
+}
+
+.info3_img>img:hover {
+    margin-top: -20px;
+    opacity: 0.5;
+}
+
+.info3_sub_text {
+    float: left;
+    margin-top: 7vh;
+}
+
+.info3_sub_text>p {
+    font-family: 'Averia Serif Libre', cursive;
+    margin-left: 10vw;
+    width: 60vw;
+    font-size: 25px;
+    color: #8F8B87;
+}
+
+.info3_sub_text>a {
+    text-decoration: none;
+    float: right;
+    margin-right: -17vw;
+    margin-top: -10vh;
+    background-color: #BF4C4D;
+    color: white;
+    font-size: 15px;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.info3_sub_text>a:hover{
+    background-color: #BF2D4E;
+    transition-duration: 0.5s;
+}
