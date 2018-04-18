@@ -79,24 +79,41 @@
 .info3_sub_text>p {
     font-family: 'Averia Serif Libre', cursive;
     margin-left: 10vw;
-    width: 60vw;
+    width: 50vw;
     font-size: 25px;
     color: #8F8B87;
 }
 
 .info3_sub_text>a {
+    position: relative;
     text-decoration: none;
     float: right;
-    margin-right: -17vw;
+    margin-right: -28vw;
     margin-top: -10vh;
     background-color: #BF4C4D;
-    color: white;
-    font-size: 15px;
     padding: 15px 30px;
     border-radius: 10px;
+    overflow: hidden;
 }
 
-.info3_sub_text>a:hover{
-    background-color: #BF2D4E;
-    transition-duration: 0.5s;
+#gallery>span {
+    position: relative;
+    color: white;
+    font-size: 18px;
+}
+
+.info3_sub_text>a:before {
+    content: '';
+    width: 130px;
+    height: 20px;
+    position: absolute;
+    background: #BF2D4E;
+    padding: 15px 30px;
+    right: 100%;
+    top: 1%;
+}
+
+.info3_sub_text>a:hover:before {
+    right: 0%;
+    transition: 0.25s ease-in-out;
 }
