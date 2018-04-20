@@ -14,6 +14,10 @@
     margin-bottom: 5vh;
 }
 
+#content {
+    display: flex;
+}
+
 #content_left_info {
     float: left;
     margin-left: 8%;
@@ -25,16 +29,19 @@
     font-size: 35px;
     font-weight: 100;
     text-align: right;
+    flex: 1;
 }
 
 #content_left_intro {
     width: 20vw;
     text-align: right;
     font-size: 18px;
+    flex: 1;
 }
 
 #info4_left_img {
     margin-left: 2vw;
+    flex: 1;
 }
 
 #content_right_info {
@@ -48,15 +55,21 @@
     font-size: 35px;
     font-weight: 100;
     text-align: left;
-    margin-left: -2vw;
+    margin-left: 1vw;
+    flex: 1;
+    float: left;
 }
 
 #content_right_intro {
     width: 20vw;
     font-size: 18px;
-    margin-left: -2vw;
+    margin-top: 0;
+    margin-left: 1vw;
+    flex: 1;
+    float: left;
 }
 
 #info4_right_img {
-/*    margin-right: -2vw;*/
+    flex: 1;
+    float: left;
 }
