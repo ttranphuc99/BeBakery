@@ -17,14 +17,24 @@
     padding-top: 100px;
 }
 
+#wrap_product {
+    display: flex;
+}
+
 div.product {
     float: left;
-    margin-left: 10%;
+    margin-left: -2%;
     margin-top: 100px;
+    flex: 1;
+}
+
+div.product:first-child {
+    margin-left: 20%;
 }
 
 a.product {
     text-decoration: none;
+    text-align: center;
 }
 
 p.product {
@@ -33,6 +43,7 @@ p.product {
     opacity: 0;
     transition-duration: 2s;
     transition-timing-function: linear;
+    margin-left: -17%;
 }
 
 h4.product {
@@ -43,6 +54,9 @@ h4.product {
     opacity: 0;
     transition-duration: 2s;
     transition-timing-function: linear;
+    width: 10vw;
+    padding-left: 30px;
+    text-align: left;
 }
 
 img.product {

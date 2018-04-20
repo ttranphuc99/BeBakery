@@ -40,13 +40,18 @@
 
 .info3_gallery {
     margin-top: 5vh;
-    margin-left: 10vw;
+    margin-left: 10%;
     float: left;
+    display: flex;
+    width: 80%;
+    overflow: inherit;
 }
 
 .info3_gallery>a {
     float: left;
     margin-right: 1vw;
+    flex: 1;
+/*    width: 80%;*/
 }
 
 .info3_img {
@@ -56,6 +61,7 @@
     height: 280px;
     overflow: hidden;
     border: 5px solid #F8F8F8;
+    float: left;
 }
 
 .info3_img>img {
@@ -64,6 +70,7 @@
     padding: 0;
     transition: 0.25s;
     border: 0;
+    float: left;
 }
 
 .info3_img>img:hover {
