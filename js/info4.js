@@ -15,14 +15,28 @@
 //}
 
 function info4_appear() {
-    document.getElementById('content_left_info').style.marginLeft = "8%";
-    document.getElementById('content_right_info').style.marginRight = "15%";
+    document.getElementById('content_left_heading').style.marginRight = "0";
+    document.getElementById('content_left_heading').style.opacity = "1";
     
-    document.getElementById('info4_right_img').style.marginLeft = "0";
+    document.getElementById('content_left_intro').style.marginLeft = "0";
+    document.getElementById('content_left_intro').style.opacity = "1";
     
-    document.getElementById('content_left_info').style.opacity = "1";
-    document.getElementById('content_right_info').style.opacity = "1";
+    document.getElementById('info4_img_product1').style.opacity = "1";
     
-    document.getElementById('info4_right_img').style.opacity = "1";
-    document.getElementById('info4_left_img').style.opacity = "1";
+    document.getElementById('info4_img_product2').style.opacity = "1";
+    
+    document.getElementById('info4_img_product1').style.width = "280px";
+    
+    document.getElementById('info4_img_product2').style.width = "280px";
+    
+    document.getElementById('info4_img_product2').style.marginLeft = "0";
+    
+    document.getElementById('content_right_heading').style.marginLeft = "0";
+    
+    document.getElementById('content_right_heading').style.opacity = "1";
+    
+    document.getElementById('content_right_intro').style.marginLeft = "0";
+    
+    document.getElementById('content_right_intro').style.opacity = "1";
+
 }

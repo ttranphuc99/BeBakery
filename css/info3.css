@@ -50,6 +50,7 @@
     float: left;
     margin-right: 1vw;
     flex: 1;
+    cursor: pointer;
 }
 
 .info3_img {
@@ -79,6 +80,7 @@
 .info3_sub_text {
     float: left;
     margin-top: 7vh;
+    width: 100%;
 }
 
 .info3_sub_text>p {
@@ -93,7 +95,7 @@
     position: relative;
     text-decoration: none;
     float: right;
-    margin-right: -28vw;
+    margin-right: 10vw;
     margin-top: -10vh;
     background-color: #BF4C4D;
     padding: 15px 30px;
