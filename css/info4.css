@@ -1,0 +1,62 @@
+.info4 {
+    width: 100%;
+    height: 500px;
+    background-image: url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_promotions_bg.jpg");
+}
+
+#info4_heading {
+    font-family: 'Averia Serif Libre';
+    font-size: 60px;
+    font-weight: 100;
+    text-align: center;
+    margin: 0;
+    padding-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+#content_left_info {
+    float: left;
+    margin-left: 8%;
+    width: 20%;
+}
+
+#content_left_heading {
+    font-family: 'Averia Serif Libre';
+    font-size: 35px;
+    font-weight: 100;
+    text-align: right;
+}
+
+#content_left_intro {
+    width: 20vw;
+    text-align: right;
+    font-size: 18px;
+}
+
+#info4_left_img {
+    margin-left: 2vw;
+}
+
+#content_right_info {
+    float: right;
+    margin-right: 10%;
+    width: 20%;
+}
+
+#content_right_heading {
+    font-family: 'Averia Serif Libre';
+    font-size: 35px;
+    font-weight: 100;
+    text-align: left;
+    margin-left: -2vw;
+}
+
+#content_right_intro {
+    width: 20vw;
+    font-size: 18px;
+    margin-left: -2vw;
+}
+
+#info4_right_img {
+/*    margin-right: -2vw;*/
+}
