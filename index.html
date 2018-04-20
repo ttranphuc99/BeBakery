@@ -71,39 +71,39 @@
             </h1>
 
             <div id="wrap_product">
-<!--                <center>-->
-                    <!--           Product 1-->
-                    <div class="product">
-                        <a href="#" class="product">
-                            <img src="img/home_bakery_product_1.png" alt="Product 1" class="product" id="product_img1">
+                <!--                <center>-->
+                <!--           Product 1-->
+                <div class="product">
+                    <a href="#" class="product">
+                        <img src="img/home_bakery_product_1.png" alt="Product 1" class="product" id="product_img1">
 
-                            <h4 class="product" id="product_name1">Bread</h4>
-                            <p class="product" id="product_info1">Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna</p>
-                        </a>
-                    </div>
-                    <!--            Product 2-->
-                    <div class="product">
-                        <a href="#" class="product">
-                            <img src="img/home_bakery_product_2.png" alt="Product 2" class="product" id="product_img2">
+                        <h4 class="product" id="product_name1">Bread</h4>
+                        <p class="product" id="product_info1">Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna</p>
+                    </a>
+                </div>
+                <!--            Product 2-->
+                <div class="product">
+                    <a href="#" class="product">
+                        <img src="img/home_bakery_product_2.png" alt="Product 2" class="product" id="product_img2">
 
-                            <h4 class="product" id="product_name2">Cakes</h4>
-                            <p class="product" id="product_info2">Vesti bulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus</p>
-                        </a>
-                    </div>
-                    <!--            Product 3-->
-                    <div class="product">
-                        <a href="#" class="product">
-                            <img src="img/home_bakery_product_3.png" alt="Product 1" class="product" id="product_img3">
+                        <h4 class="product" id="product_name2">Cakes</h4>
+                        <p class="product" id="product_info2">Vesti bulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus</p>
+                    </a>
+                </div>
+                <!--            Product 3-->
+                <div class="product">
+                    <a href="#" class="product">
+                        <img src="img/home_bakery_product_3.png" alt="Product 1" class="product" id="product_img3">
 
-                            <h4 class="product" id="product_name3">Donuts</h4>
-                            <p class="product" id="product_info3">Aliquam erat ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed sapien</p>
-                        </a>
-                    </div>
-<!--                </center>-->
+                        <h4 class="product" id="product_name3">Donuts</h4>
+                        <p class="product" id="product_info3">Aliquam erat ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed sapien</p>
+                    </a>
+                </div>
+                <!--                </center>-->
             </div>
         </div>
 
-        <div class="info3">
+        <div class="info3" onwheel="info4_appear()">
             <div id="info3_text">
                 <h1 id="info3_heading">
                     Quisue cursus comodo volupat
@@ -139,7 +139,7 @@
                 </a>
             </div>
 
-            <div class="info3_sub_text">
+            <div class="info3_sub_text" onwh>
                 <p>
                     Onceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue.
                 </p>
@@ -165,13 +165,17 @@
                         Onceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit apibus, mauris nec amet a augue. Sed no
                     </p>
                 </div>
-                <img src="img/home_bakery_product1.png" alt="product 1" id="info4_left_img" width="280" height="auto">
-                
-                <img src="img/home_bakery_product2.png" alt="product 1" id="info4_right_img" width="280" height="auto">
+                <div id="info4_left_img">
+                    <img src="img/home_bakery_product1.png" alt="product 1"  width="280" height="auto">
+                </div>
+
+                <div id="info4_right_img">
+                    <img src="img/home_bakery_product2.png" alt="product 1" width="280" height="auto">
+                </div>
 
                 <div id="content_right_info">
 
-                    
+
                     <h2 id="content_right_heading">
                         Nut Cake
                     </h2>
@@ -187,5 +191,6 @@
         <script src="js/info1.js"></script>
         <script src="js/info2.js"></script>
         <script src="js/change_header.js"></script>
+        <script src="js/info4.js"></script>
     </body>
 </html>

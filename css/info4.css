@@ -20,8 +20,10 @@
 
 #content_left_info {
     float: left;
-    margin-left: 8%;
+    margin-left: 0;
     width: 20%;
+    opacity: 0;
+    transition: 1s;
 }
 
 #content_left_heading {
@@ -40,14 +42,24 @@
 }
 
 #info4_left_img {
-    margin-left: 2vw;
+    width: 20%; 
     flex: 1;
+    overflow: hidden;
+    opacity: 0;
+    transition: 1s;
+}
+
+#info4_left_img {
+    width: 100%;
+    height: auto;
 }
 
 #content_right_info {
     float: right;
-    margin-right: 10%;
+    margin-right: 2%;
     width: 20%;
+    opacity: 0;
+    transition: 1s;
 }
 
 #content_right_heading {
@@ -71,5 +83,15 @@
 
 #info4_right_img {
     flex: 1;
+    margin-left: 20%;
+    overflow: hidden;
     float: left;
+    width: 280px;
+    opacity: 0;
+    transition: 1s;
+}
+
+#info4_right_img {
+    width: 100%;
+    height: auto;
 }
