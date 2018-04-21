@@ -10,9 +10,9 @@
 
 #appear_popup {
     display: block;
-    top: 12%;
+    top: 10vh;
     left: 25%;
-    height: auto;
+    max-height: 79%;
     position: fixed;
     z-index: 11;
     
@@ -20,8 +20,8 @@
 
 #close_icon {
     position: fixed;
-    left: 77%;
-    top: 9%;
+    left: 76.7%;
+    top: 7%;
     z-index: 20;
     font-size: 20px;
     color: #B9B9B9;
@@ -55,7 +55,7 @@
 
 #img_index {
     position: fixed;
-    bottom: 3%;
+    bottom: 6%;
     right: 4%;
     font-size: 15px;
     color: black;
