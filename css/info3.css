@@ -3,23 +3,26 @@
     height: 700px;
     background-color: #F2F1EC;
     margin: 0;
+    position: relative;
 }
 
 #info3_heading {
     font-family: 'Averia Serif Libre', cursive;
     color: #372921;
+    top: 0;
+    bottom: 0;
     margin-top: 0;
-    margin-bottom: 0;
+    height: 5vh;
     width: 35vw;
     font-size: 60px;
     font-weight: 100;
     margin-left: 8vw;
     float: left;
+    position: absolute;
 }
 
 #info3_content {
     width: 35vw;
-    float: right;
     margin-right: 7vw;
     font-size: 16px;
     line-height: 30px;
@@ -27,6 +30,9 @@
     color: #8F8F8F;
     padding-left: 6vw;
     border-left: 3px solid #8F8F8F;
+    position: absolute;
+    top: 0;
+    left: 45%;
 }
 
 #info3_content>a {
@@ -44,6 +50,8 @@
     float: left;
     display: flex;
     width: 80%;
+    position: absolute;
+    top: 20vh;
 }
 
 .info3_gallery>a {
@@ -53,7 +61,7 @@
     cursor: pointer;
 }
 
-.info3_img {
+.info3_img_div {
     margin: 0;
     padding-top:0;
     width: 100%;
@@ -63,7 +71,7 @@
     float: left;
 }
 
-.info3_img>img {
+.info3_img_div>img {
     width: 100%;
     height: 300px;
     padding: 0;
@@ -72,7 +80,7 @@
     float: left;
 }
 
-.info3_img>img:hover {
+.info3_img_div>img:hover {
     margin-top: -20px;
     opacity: 0.5;
 }
@@ -81,6 +89,8 @@
     float: left;
     margin-top: 7vh;
     width: 100%;
+    position: absolute;
+    top: 60vh;
 }
 
 .info3_sub_text>p {
