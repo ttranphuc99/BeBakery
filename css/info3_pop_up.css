@@ -31,3 +31,37 @@
 #close_icon:hover {
     color: white;
 }
+
+#right_icon, #left_icon {
+    position: fixed;
+    top: 50%;
+    font-size: 40px;
+    z-index: 20;
+    color: #B9B9B9;
+    cursor: pointer;
+}
+
+#right_icon:hover, #left_icon:hover {
+    color: white;
+}
+
+#right_icon {
+    left: 97%;
+}
+
+#left_icon {
+    left: 3%;
+}
+
+#img_index {
+    position: fixed;
+    bottom: 3%;
+    right: 4%;
+    font-size: 15px;
+    color: black;
+    z-index: 23;
+    width: 20%;
+    color: #C8C7C7;
+    font-family: "Averia Serif Libre";
+    font-weight: 100;
+}
