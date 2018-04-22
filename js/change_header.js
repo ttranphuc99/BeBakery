@@ -1,8 +1,14 @@
 var disabledClick = false;
 var firstTime = true;
 
+var background_image = ['url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png"), url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg1.jpg")' , 'url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png"), url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg2.jpg")'];
+
+var background = ["url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top, url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg1.jpg) no-repeat" , "url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top, url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg2.jpg) no-repeat"];
+
+var slogan = ["#slogan1" , "#slogan2"];
+
 function autoplay() {
-    if (firstTime === true) {
+    if (firstTime == true) {
         
         change();
     }
@@ -39,18 +45,16 @@ $(document).ready(function() {
 
 function change() {
     firstTime = false;
-    if (disabledClick === true) return;
+    if (disabledClick == true) return;
     disabledClick = true;
     if (
-        $(".header_img").css("background-image") ===
-        'url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png"), url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg1.jpg")'
-    ) {
+        $(".header_img").css("background-image") == background_image[0]) {
         //            From 1st to 2nd layout
 
         //            fadeOutClass1;
 
-
-        $("#slogan1").animate({
+        
+        $(slogan[0]).animate({
             top: '400px',
             opacity: '0'
         }, {
@@ -72,8 +76,7 @@ function change() {
             duration: 500,
             //            queue: false,
             complete: function() {
-                $(".header_img").css("background", 
-                                     "url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top, url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg2.jpg) no-repeat");
+                $(".header_img").css("background", background[1]);
             }
         });
 
@@ -85,7 +88,7 @@ function change() {
                 duration: 500,
                 //            queue: true,
                 complete: function() {
-                    $("#slogan2").animate({
+                    $(slogan[1]).animate({
                         top: '-784px',
                         opacity: '1'
                     }, {
@@ -107,7 +110,7 @@ function change() {
         //            From 2nd to 1st layout
 
         //            fadeOutClass2;
-        $("#slogan2").animate({
+        $(slogan[1]).animate({
             top: '-730px',
             opacity: '0'
         }, {
@@ -129,8 +132,7 @@ function change() {
             duration: 500,
             //            queue: false,
             complete: function() {
-                $(".header_img").css("background", 
-                                     "url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top, url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg1.jpg) no-repeat");
+                $(".header_img").css("background", background[0]);
             }
         });
 
