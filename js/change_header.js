@@ -1,9 +1,16 @@
 var disabledClick = false;
 var firstTime = true;
 
-var background_image = ['url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png"), url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg1.jpg")' , 'url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png"), url("http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg2.jpg")'];
+var background_image = [$(".header_img").css("background-image") , ''];
 
-var background = ["url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top, url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg1.jpg) no-repeat" , "url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_header_pattern.png) repeat-x top, url(http://betheme.muffingroupsc.netdna-cdn.com/be/baker/wp-content/uploads/2014/11/home_bakery_slide_bg2.jpg) no-repeat"];
+background_image[1] = background_image[0].replace('bg1', 'bg2');
+
+var background = ['' , ''];
+
+background[0] = background_image[0].replace('home_bakery_header_pattern.png")', 'home_bakery_header_pattern.png") repeat-x top');
+
+background[1] = background[0].replace('bg1', 'bg2');
+
 
 var slogan = ["#slogan1" , "#slogan2"];
 
@@ -50,10 +57,7 @@ function change() {
     if (
         $(".header_img").css("background-image") == background_image[0]) {
         //            From 1st to 2nd layout
-
-        //            fadeOutClass1;
-
-        
+        //            fadeOutClass1;        
         $(slogan[0]).animate({
             top: '400px',
             opacity: '0'
@@ -108,7 +112,6 @@ function change() {
 
     } else {
         //            From 2nd to 1st layout
-
         //            fadeOutClass2;
         $(slogan[1]).animate({
             top: '-730px',
